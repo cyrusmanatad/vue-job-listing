@@ -84,7 +84,7 @@ const handleSubmit = async () => {
               id="name"
               name="name"
               class="mb-2 w-full rounded border px-3 py-2"
-              placeholder="eg. Beautiful Apartment In Miami"
+              placeholder="eg. Software Engineer"
               required
             />
           </div>
@@ -113,17 +113,17 @@ const handleSubmit = async () => {
               class="w-full rounded border px-3 py-2"
               required
             >
-              <option value="Under $50K">under $50K</option>
-              <option value="$50K - $60K">$50 - $60K</option>
-              <option value="$60K - $70K">$60 - $70K</option>
-              <option value="$70K - $80K">$70 - $80K</option>
-              <option value="$80K - $90K">$80 - $90K</option>
-              <option value="$90K - $100K">$90 - $100K</option>
-              <option value="$100K - $125K">$100 - $125K</option>
-              <option value="$125K - $150K">$125 - $150K</option>
-              <option value="$150K - $175K">$150 - $175K</option>
-              <option value="$175K - $200K">$175 - $200K</option>
-              <option value="Over $200K">Over $200K</option>
+              <option value="Under PHP 50K">under PHP 50K</option>
+              <option value="PHP 50K - 60K">PHP 50K - 60K</option>
+              <option value="PHP 60K - 70K">PHP 60K - 70K</option>
+              <option value="PHP 70K - 80K">PHP 70K - 80K</option>
+              <option value="PHP 80K - 90K">PHP 80K - 90K</option>
+              <option value="PHP 90K - 100K">PHP 90K - 100K</option>
+              <option value="PHP 100K - 125K">PHP 100K - 125K</option>
+              <option value="PHP 125K - 150K">PHP 125K - 150K</option>
+              <option value="PHP 150K - 175K">PHP 150K - 175K</option>
+              <option value="PHP 175K - 200K">PHP 175K - 200K</option>
+              <option value="Over PHP 200K">Over PHP 200K</option>
             </select>
           </div>
 
