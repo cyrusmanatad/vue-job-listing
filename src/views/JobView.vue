@@ -35,7 +35,7 @@ const deleteJob = async () => {
 
 onMounted(async () => {
   try {
-    const response = await axios.get(`/api/jobs/${jobId}`);
+    const response = await axios.get(`/api/job-listings/${jobId}`);
     state.job = response.data;
   } catch (error) {
   } finally {
